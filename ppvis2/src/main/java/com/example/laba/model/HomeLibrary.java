@@ -9,7 +9,10 @@ public class HomeLibrary {
 	private Set<Archive> libraryArchives;
 	private ViewHomeLibrary viewHomeLibrary;
 	private ReadingMode viewReadingMode;
-	private MenuAuthorization current_user;
+	private User current_user;
+	private Archive current_archive;
+	private MenuAuthorization menuAuthorization;
+	private MenuArchive menuArchive;
 	
 	public void run() {
 	}
